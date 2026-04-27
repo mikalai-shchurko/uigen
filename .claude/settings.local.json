@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "mcp__playwright",
+      "Bash(start *)",
+      "Bash(curl -s -v http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/__nextjs_original-stack-frame)",
+      "Bash(npx next *)",
+      "Bash(curl -s http://localhost:3000/)"
+    ]
+  }
+}
